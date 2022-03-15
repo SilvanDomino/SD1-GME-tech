@@ -15,9 +15,4 @@ public class RotateCoin : MonoBehaviour
     {
         transform.Rotate(new Vector3(0, 0, 360) * Time.deltaTime);
     }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        Destroy(gameObject);
-    }
 }
